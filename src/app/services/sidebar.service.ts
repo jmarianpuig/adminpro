@@ -10,12 +10,14 @@ export class SidebarService {
       titulo: 'Panel de Control',
       icono: 'mdi mdi-gauge',
       submenu: [
-        { titulo: 'Principal', url: '/'},
-        { titulo: 'ProgressBar', url: 'progress'},
+        { titulo: 'Dashboard', url: '/'},
         { titulo: 'Gráficas', url: 'grafica1'},
+        { titulo: 'ProgressBar', url: 'progress'},
+        { titulo: 'Promesas', url: 'promesas'},
+        { titulo: 'RxJs', url: 'rxjs'},
       ]
     }
-  ]
+  ];
 
   constructor() { }
 }
